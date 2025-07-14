@@ -3,7 +3,7 @@ import heroImage from "../assets/hero.jpg";
 
 function Hero() {
   return (
-    <div className="w-full h-[100vh] bg-pink-100 flex justify-center items-center">
+    <div className="w-full h-[100vh] bg-pink-100 flex justify-center items-center pt-[5%]">
       <div
         className="w-[80%] h-[80vh] bg-center bg-cover bg-no-repeat rounded-xl relative "
         style={{ backgroundImage: `url(${heroImage})` }}

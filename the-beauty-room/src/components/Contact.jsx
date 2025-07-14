@@ -2,7 +2,10 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='w-full h-[100vh] bg-white '>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
 
