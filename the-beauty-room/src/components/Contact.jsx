@@ -1,4 +1,5 @@
 import React from "react";
+import Spa from "../assets/SpaDay.jpeg";
 
 function Contact() {
   return (
@@ -6,12 +7,16 @@ function Contact() {
       <div className="w-[50%] bg-pink-300 p-[3%]">
         <span className="text-pink-950 font-bold text-2xl">Get in Touch</span>
         <p className="text-pink-800">
-          For bookings or inquiries, please fill out the form below or reach out via WhatsApp.
+          For bookings or inquiries, please fill out the form below or reach out
+          via WhatsApp.
         </p>
 
         <form className="mt-10">
           {/* Name */}
-          <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
+          <label
+            htmlFor="first-name"
+            className="block text-sm font-medium text-gray-900"
+          >
             Name
           </label>
           <input
@@ -23,7 +28,10 @@ function Contact() {
           />
 
           {/* Phone Number */}
-          <label htmlFor="phone" className="block text-sm font-medium text-gray-900 mt-2">
+          <label
+            htmlFor="phone"
+            className="block text-sm font-medium text-gray-900 mt-2"
+          >
             Phone Number
           </label>
           <input
@@ -35,7 +43,10 @@ function Contact() {
           />
 
           {/* Email */}
-          <label htmlFor="email" className="block text-sm font-medium text-gray-900 mt-2">
+          <label
+            htmlFor="email"
+            className="block text-sm font-medium text-gray-900 mt-2"
+          >
             Email address
           </label>
           <input
@@ -47,7 +58,10 @@ function Contact() {
           />
 
           {/* Event Type */}
-          <label htmlFor="event" className="block text-sm font-medium text-gray-900 mt-2">
+          <label
+            htmlFor="event"
+            className="block text-sm font-medium text-gray-900 mt-2"
+          >
             Event Type
           </label>
           <select
@@ -63,7 +77,10 @@ function Contact() {
           </select>
 
           {/* Event Date */}
-          <label htmlFor="date" className="block text-sm font-medium text-gray-900 mt-2">
+          <label
+            htmlFor="date"
+            className="block text-sm font-medium text-gray-900 mt-2"
+          >
             Event Date
           </label>
           <input
@@ -75,7 +92,7 @@ function Contact() {
 
           {/* Submit Button */}
           <button
-            type="submit"
+            type=""
             className="mt-6 rounded-md bg-pink-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-pink-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600"
           >
             Submit
@@ -84,7 +101,12 @@ function Contact() {
       </div>
 
       {/* Right Section */}
-      <div className="w-[50%] bg-pink-300"></div>
+      <div className="w-[50%] bg-pink-300">
+        <div
+          className="w-[100%] h-full bg-center bg-cover bg-no-repeat l relative "
+          style={{ backgroundImage: `url(${Spa})` }}
+        ></div>
+      </div>
     </div>
   );
 }
